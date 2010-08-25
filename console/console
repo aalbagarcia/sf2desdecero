@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/ConsoleKernel.php';
+
+use Symfony\Bundle\FrameworkBundle\Console\Application;
+
+$kernel = new ConsoleKernel('dev', true);
+
+$application = new Application($kernel);
+$application->run();
+

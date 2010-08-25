@@ -1,0 +1,20 @@
+kernel.config:
+    charset:       UTF-8
+    error_handler: null
+
+#web.config: 
+#    router:     { resource: "%kernel.root_dir%/config/routing.yml" }
+#    validation: { enabled: true, annotations: true }
+
+#web.templating:
+#    escaping:       htmlspecialchars
+
+
+#doctrine.dbal: ~
+#  connections:
+#    default:
+#      driverClass: Doctrine\DBAL\Driver\PDOMySql\Driver  #
+#      dbname:   todo
+#      user:     root
+#      password: admin
+#doctrine.orm: ~

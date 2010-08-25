@@ -1,0 +1,6 @@
+console/cache/
+console/logs/
+hello/cache/
+hello/logs/
+src/vendor/
+web/cgi-bin/
